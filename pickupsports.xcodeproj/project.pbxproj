@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9625319F1BF3D5D700379C04 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9625319E1BF3D5D700379C04 /* AppDelegate.swift */; };
+		962531A11BF3D5D700379C04 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962531A01BF3D5D700379C04 /* ViewController.swift */; };
+		962531A41BF3D5D700379C04 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 962531A21BF3D5D700379C04 /* Main.storyboard */; };
+		962531A61BF3D5D700379C04 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 962531A51BF3D5D700379C04 /* Assets.xcassets */; };
+		962531A91BF3D5D700379C04 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 962531A71BF3D5D700379C04 /* LaunchScreen.storyboard */; };
+		962531B41BF3D5D700379C04 /* pickupsportsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962531B31BF3D5D700379C04 /* pickupsportsTests.swift */; };
+		962531BF1BF3D5D700379C04 /* pickupsportsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962531BE1BF3D5D700379C04 /* pickupsportsUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		962531B01BF3D5D700379C04 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 962531931BF3D5D700379C04 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9625319A1BF3D5D700379C04;
+			remoteInfo = pickupsports;
+		};
+		962531BB1BF3D5D700379C04 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 962531931BF3D5D700379C04 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9625319A1BF3D5D700379C04;
+			remoteInfo = pickupsports;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9625319B1BF3D5D700379C04 /* pickupsports.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pickupsports.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9625319E1BF3D5D700379C04 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		962531A01BF3D5D700379C04 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		962531A31BF3D5D700379C04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		962531A51BF3D5D700379C04 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		962531A81BF3D5D700379C04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		962531AA1BF3D5D700379C04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		962531AF1BF3D5D700379C04 /* pickupsportsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pickupsportsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		962531B31BF3D5D700379C04 /* pickupsportsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pickupsportsTests.swift; sourceTree = "<group>"; };
+		962531B51BF3D5D700379C04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		962531BA1BF3D5D700379C04 /* pickupsportsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pickupsportsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		962531BE1BF3D5D700379C04 /* pickupsportsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pickupsportsUITests.swift; sourceTree = "<group>"; };
+		962531C01BF3D5D700379C04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		962531981BF3D5D700379C04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		962531AC1BF3D5D700379C04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		962531B71BF3D5D700379C04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		962531921BF3D5D700379C04 = {
+			isa = PBXGroup;
+			children = (
+				9625319D1BF3D5D700379C04 /* pickupsports */,
+				962531B21BF3D5D700379C04 /* pickupsportsTests */,
+				962531BD1BF3D5D700379C04 /* pickupsportsUITests */,
+				9625319C1BF3D5D700379C04 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9625319C1BF3D5D700379C04 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9625319B1BF3D5D700379C04 /* pickupsports.app */,
+				962531AF1BF3D5D700379C04 /* pickupsportsTests.xctest */,
+				962531BA1BF3D5D700379C04 /* pickupsportsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9625319D1BF3D5D700379C04 /* pickupsports */ = {
+			isa = PBXGroup;
+			children = (
+				9625319E1BF3D5D700379C04 /* AppDelegate.swift */,
+				962531A01BF3D5D700379C04 /* ViewController.swift */,
+				962531A21BF3D5D700379C04 /* Main.storyboard */,
+				962531A51BF3D5D700379C04 /* Assets.xcassets */,
+				962531A71BF3D5D700379C04 /* LaunchScreen.storyboard */,
+				962531AA1BF3D5D700379C04 /* Info.plist */,
+			);
+			path = pickupsports;
+			sourceTree = "<group>";
+		};
+		962531B21BF3D5D700379C04 /* pickupsportsTests */ = {
+			isa = PBXGroup;
+			children = (
+				962531B31BF3D5D700379C04 /* pickupsportsTests.swift */,
+				962531B51BF3D5D700379C04 /* Info.plist */,
+			);
+			path = pickupsportsTests;
+			sourceTree = "<group>";
+		};
+		962531BD1BF3D5D700379C04 /* pickupsportsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				962531BE1BF3D5D700379C04 /* pickupsportsUITests.swift */,
+				962531C01BF3D5D700379C04 /* Info.plist */,
+			);
+			path = pickupsportsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9625319A1BF3D5D700379C04 /* pickupsports */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 962531C31BF3D5D700379C04 /* Build configuration list for PBXNativeTarget "pickupsports" */;
+			buildPhases = (
+				962531971BF3D5D700379C04 /* Sources */,
+				962531981BF3D5D700379C04 /* Frameworks */,
+				962531991BF3D5D700379C04 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = pickupsports;
+			productName = pickupsports;
+			productReference = 9625319B1BF3D5D700379C04 /* pickupsports.app */;
+			productType = "com.apple.product-type.application";
+		};
+		962531AE1BF3D5D700379C04 /* pickupsportsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 962531C61BF3D5D700379C04 /* Build configuration list for PBXNativeTarget "pickupsportsTests" */;
+			buildPhases = (
+				962531AB1BF3D5D700379C04 /* Sources */,
+				962531AC1BF3D5D700379C04 /* Frameworks */,
+				962531AD1BF3D5D700379C04 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				962531B11BF3D5D700379C04 /* PBXTargetDependency */,
+			);
+			name = pickupsportsTests;
+			productName = pickupsportsTests;
+			productReference = 962531AF1BF3D5D700379C04 /* pickupsportsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		962531B91BF3D5D700379C04 /* pickupsportsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 962531C91BF3D5D700379C04 /* Build configuration list for PBXNativeTarget "pickupsportsUITests" */;
+			buildPhases = (
+				962531B61BF3D5D700379C04 /* Sources */,
+				962531B71BF3D5D700379C04 /* Frameworks */,
+				962531B81BF3D5D700379C04 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				962531BC1BF3D5D700379C04 /* PBXTargetDependency */,
+			);
+			name = pickupsportsUITests;
+			productName = pickupsportsUITests;
+			productReference = 962531BA1BF3D5D700379C04 /* pickupsportsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		962531931BF3D5D700379C04 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Berman, Chapin, & Moure";
+				TargetAttributes = {
+					9625319A1BF3D5D700379C04 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					962531AE1BF3D5D700379C04 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 9625319A1BF3D5D700379C04;
+					};
+					962531B91BF3D5D700379C04 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 9625319A1BF3D5D700379C04;
+					};
+				};
+			};
+			buildConfigurationList = 962531961BF3D5D700379C04 /* Build configuration list for PBXProject "pickupsports" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 962531921BF3D5D700379C04;
+			productRefGroup = 9625319C1BF3D5D700379C04 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9625319A1BF3D5D700379C04 /* pickupsports */,
+				962531AE1BF3D5D700379C04 /* pickupsportsTests */,
+				962531B91BF3D5D700379C04 /* pickupsportsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		962531991BF3D5D700379C04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				962531A91BF3D5D700379C04 /* LaunchScreen.storyboard in Resources */,
+				962531A61BF3D5D700379C04 /* Assets.xcassets in Resources */,
+				962531A41BF3D5D700379C04 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		962531AD1BF3D5D700379C04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		962531B81BF3D5D700379C04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		962531971BF3D5D700379C04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				962531A11BF3D5D700379C04 /* ViewController.swift in Sources */,
+				9625319F1BF3D5D700379C04 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		962531AB1BF3D5D700379C04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				962531B41BF3D5D700379C04 /* pickupsportsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		962531B61BF3D5D700379C04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				962531BF1BF3D5D700379C04 /* pickupsportsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		962531B11BF3D5D700379C04 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9625319A1BF3D5D700379C04 /* pickupsports */;
+			targetProxy = 962531B01BF3D5D700379C04 /* PBXContainerItemProxy */;
+		};
+		962531BC1BF3D5D700379C04 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9625319A1BF3D5D700379C04 /* pickupsports */;
+			targetProxy = 962531BB1BF3D5D700379C04 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		962531A21BF3D5D700379C04 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				962531A31BF3D5D700379C04 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		962531A71BF3D5D700379C04 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				962531A81BF3D5D700379C04 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		962531C11BF3D5D700379C04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		962531C21BF3D5D700379C04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		962531C41BF3D5D700379C04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = pickupsports/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bermanchapinmoure.pickupsports;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		962531C51BF3D5D700379C04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = pickupsports/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bermanchapinmoure.pickupsports;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		962531C71BF3D5D700379C04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = pickupsportsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bermanchapinmoure.pickupsportsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pickupsports.app/pickupsports";
+			};
+			name = Debug;
+		};
+		962531C81BF3D5D700379C04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = pickupsportsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bermanchapinmoure.pickupsportsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pickupsports.app/pickupsports";
+			};
+			name = Release;
+		};
+		962531CA1BF3D5D700379C04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = pickupsportsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bermanchapinmoure.pickupsportsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = pickupsports;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		962531CB1BF3D5D700379C04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = pickupsportsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bermanchapinmoure.pickupsportsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = pickupsports;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		962531961BF3D5D700379C04 /* Build configuration list for PBXProject "pickupsports" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				962531C11BF3D5D700379C04 /* Debug */,
+				962531C21BF3D5D700379C04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		962531C31BF3D5D700379C04 /* Build configuration list for PBXNativeTarget "pickupsports" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				962531C41BF3D5D700379C04 /* Debug */,
+				962531C51BF3D5D700379C04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		962531C61BF3D5D700379C04 /* Build configuration list for PBXNativeTarget "pickupsportsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				962531C71BF3D5D700379C04 /* Debug */,
+				962531C81BF3D5D700379C04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		962531C91BF3D5D700379C04 /* Build configuration list for PBXNativeTarget "pickupsportsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				962531CA1BF3D5D700379C04 /* Debug */,
+				962531CB1BF3D5D700379C04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 962531931BF3D5D700379C04 /* Project object */;
+}
